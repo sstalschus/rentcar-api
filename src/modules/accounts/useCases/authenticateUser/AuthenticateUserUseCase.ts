@@ -49,11 +49,11 @@ class AuthenticateUserUseCase {
     })
 
     const tokenReturn: IResponse = {
+      token,
       user: {
         name: user.name,
         email: user.email
-      },
-      token
+      }
     }
 
     return tokenReturn
