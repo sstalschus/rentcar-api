@@ -1,5 +1,5 @@
-import { CarsRepositoryInMemory } from "@modules/cars/repositories/in-memory/CarsRepositoryInMemory"
 import { AppError } from "@shared/errors/AppError"
+import { CarsRepositoryInMemory } from "@modules/cars/repositories/in-memory/CarsRepositoryInMemory"
 import { CreateCarUseCase } from "./CreateCarUseCase"
 
 
@@ -27,7 +27,7 @@ describe('Create Car', () => {
     expect(car).toHaveProperty('id')
   })
 
-  it('should not be able to create a car with exxists license plate', () => {
+  it('should not be able to create a car with exists license plate', () => {
     expect(async () => {
       await createCarUseCase.execute({
         name: 'Name 1',
