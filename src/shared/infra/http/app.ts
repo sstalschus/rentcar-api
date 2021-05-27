@@ -12,7 +12,7 @@ import '@shared/container'
 import { AppError } from '@shared/errors/AppError'
 import upload from '@config/upload'
 
-createConnection("localhost")
+createConnection()
 
 const app = express()
 
