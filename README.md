@@ -32,7 +32,13 @@ This project was developed with the following technologies:
 - Swager
 - SOLID
 - Docker/Docker-compose
-- others
+- AWS Services ( S3, EC2, SES, Route53, Instances)
+- Github actions
+- NGINX
+- Certbot
+- pm2
+- babel
+- and others tecnologies and tools
 
 
 ## 💻 Project
