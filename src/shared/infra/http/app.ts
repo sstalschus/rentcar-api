@@ -7,6 +7,8 @@ import { router } from './routes'
 import swaggerFile from '../../../swagger.json'
 import cors from 'cors'
 
+import rateLimiter from '@shared/infra/http/middlewares/rateLimiter'
+
 import createConnection from '@shared/infra/typeorm'
 
 import '@shared/container'
@@ -16,6 +18,8 @@ import upload from '@config/upload'
 createConnection()
 
 const app = express()
+
+app.use(rateLimiter)
 
 app.use(express.json())
 
