@@ -38,6 +38,8 @@ This project was developed with the following technologies:
 - Certbot
 - pm2
 - babel
+- Security with rate-limiter
+- Management erros with Sentry
 - and others tecnologies and tools
 
 
