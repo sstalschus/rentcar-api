@@ -45,8 +45,8 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-This application is a complete API for car rental control. The API is still under development, being adapted to be deployed on AWS.
-Its documentation is in the api-docs path
+This application is a complete API for car rental control. This project has been completed and its documentation can be accessed at the following address:
+https://rentx.rentcar-api.com/api-docs/#/
 
 
 ## :memo: Info
@@ -54,7 +54,7 @@ Its documentation is in the api-docs path
 This API does:
 > User registration with password encryption and JWT/Refresh Token
 > Upload img to user avatar, saved in S3 on AWS
-> Password recovery by emailing
+> Password recovery by emailing (restricted)
 > Registration of new car
 > Registration of car specification
 > Upload car image
