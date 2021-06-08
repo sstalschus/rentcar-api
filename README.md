@@ -46,7 +46,8 @@ This project was developed with the following technologies:
 ## 💻 Project
 
 This application is a complete API for car rental control. This project has been completed and its documentation can be accessed at the following address:
-https://rentx.rentcar-api.com/api-docs/#/
+
+<a href=https://rentx.rentcar-api.com/api-docs/#/>Docs and API</a>
 
 
 ## :memo: Info
